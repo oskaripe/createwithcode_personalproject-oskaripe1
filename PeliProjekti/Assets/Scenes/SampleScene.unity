@@ -804,7 +804,7 @@ MonoBehaviour:
   followTransform: {fileID: 2055448209}
   bounds: 1
   minCameraPos: {x: -21.79, y: 2.62, z: -10}
-  maxCameraPos: {x: 52.8, y: 8.4, z: -10}
+  maxCameraPos: {x: 52.8, y: 55.62, z: -10}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -876,8 +876,8 @@ GameObject:
   - component: {fileID: 566984791}
   m_Layer: 0
   m_Name: Platform
-  m_TagString: Platform
-  m_Icon: {fileID: 0}
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -925,7 +925,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.981327, y: -4.268718}
+  m_Offset: {x: 0.060427666, y: 0.09814644}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -936,7 +936,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6098175, y: 0.45793915}
+  m_Size: {x: 1.4995289, y: 0.38811874}
   m_EdgeRadius: 0
 --- !u!1 &643933068
 GameObject:
@@ -962,7 +962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643933068}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.879531, y: 8.5644, z: 0}
+  m_LocalPosition: {x: 2.935, y: 9.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 778069893}
@@ -1104,7 +1104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778069891}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.830469, y: 13.0156, z: -6.8907585}
+  m_LocalPosition: {x: 7.851, y: 11.463, z: -6.8907585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1561316985}
