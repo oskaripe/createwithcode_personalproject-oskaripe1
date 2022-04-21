@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
     public int curHealth = 0;
     public int maxHealth = 100;
+    public int Respawn;
 
     public HealthBar healthBar;
 
@@ -26,6 +28,20 @@ public class Health : MonoBehaviour
         curHealth -= damage;
 
         healthBar.SetHealth(curHealth);
+        if (curHealth <= 0)
+        {
+            Death();
+        }
+
+    }
+
+    public void Death()
+    {
+        if (curHealth == 0)
+        {
+            Destroy(gameObject);
+            Application.LoadLevel(Application.loadedLevel);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D col)
