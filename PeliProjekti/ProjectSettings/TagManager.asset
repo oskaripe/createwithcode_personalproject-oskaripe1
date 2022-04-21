@@ -6,6 +6,7 @@ TagManager:
   tags:
   - isOnGround
   - Enemy
+  - Platform
   layers:
   - Default
   - TransparentFX
