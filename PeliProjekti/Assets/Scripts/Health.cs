@@ -54,5 +54,9 @@ public class Health : MonoBehaviour
         {
             DamagePlayer(50);
         }
+        if (col.gameObject.CompareTag("InstaDeath"))
+        {
+            DamagePlayer(100);
+        }
     }
 }
