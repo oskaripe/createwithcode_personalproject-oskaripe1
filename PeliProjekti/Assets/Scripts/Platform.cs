@@ -7,6 +7,7 @@ public class Platform : MonoBehaviour
     public Transform pos1, pos2;
     public float speed;
     public Transform startPos;
+    public GameObject player;
 
     Vector3 nextPos;
 

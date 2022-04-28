@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     
+
     }
 
     void DamagePlayer(int damage)
@@ -37,7 +37,7 @@ public class Health : MonoBehaviour
 
     public void Death()
     {
-        if (curHealth == 0)
+        if (curHealth <= 0)
         {
             Destroy(gameObject);
             Application.LoadLevel(Application.loadedLevel);
@@ -46,7 +46,7 @@ public class Health : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.transform.name == "Enemy")
+        if (col.gameObject.CompareTag("Enemy"))
         {
             DamagePlayer(30);
         }
